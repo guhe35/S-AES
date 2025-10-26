@@ -1,0 +1,19 @@
+# S-AES Implementation Requirements
+# 基于Python标准库，无需额外依赖
+
+# 系统要求
+Python>=3.6
+
+# GUI界面需要
+tkinter  # Python标准库，通常已预装
+
+# 开发和测试工具（可选）
+pytest>=6.0  # 用于单元测试
+
+# 项目文件说明
+# s_aes.py          - S-AES算法核心实现
+# s_aes_gui.py      - GUI界面主程序
+# run_gui.py        - GUI启动脚本
+# final_test.py     - 算法测试套件
+# demo_gui_features.py - 功能演示脚本
+# GUI_README.md     - GUI使用文档
