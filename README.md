@@ -125,7 +125,7 @@ tester.run_all_tests()
 ## 📁 文件结构
 
 ```
-S-AES-Implementation/
+S-AES/
 ├── s_aes.py              # 核心算法实现
 ├── s_aes_gui.py          # 图形用户界面
 ├── run_gui.py            # GUI启动脚本
@@ -150,3 +150,4 @@ encrypted = saes.encrypt(plaintext.encode().hex().upper()[:4])
 # 解密
 decrypted = saes.decrypt(encrypted)
 ```
+
